@@ -1,0 +1,98 @@
+.card.theme-bg {
+    background-color: #fd7e14;
+  }
+
+  /* .iwatchposition {
+    position: absolute;
+    left: 50%;
+    top: -16px;
+    margin-left: -45px;
+    width: 90px;
+} */
+
+.iwatchposition {
+    position: absolute;
+    left: 54%;
+    margin-left: -45px;
+    bottom: -505px;
+    width: 90px;
+    z-index: 999;
+}
+
+.card.theme-bg, .card.dark-bg, .card.bg-danger, .card.bg-success, .card.bg-primary, .card.bg-warning, .card.bg-info, .card.bg-dark, .card.theme-radial-gradient, .card.circle, .card.bg-opac {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07), inset 0 1px 0px rgba(255, 255, 255, 0.18);
+    -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07), inset 0 1px 0px rgba(255, 255, 255, 0.18);
+    -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07), inset 0 1px 0px rgba(255, 255, 255, 0.18);
+    background-color:#fd7e14;
+    color: #ffffff;
+}
+.card-body {
+    background-color: #140342;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* img .call{
+    width: 10%;
+} */
+p.size-10 {
+    color: #fff;
+}
+.col-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.text-end {
+    text-align: right !important;
+}
+.ms-auto {
+    margin-left: auto !important;
+}
+.align-self-center {
+    align-self: center !important;
+}
+.size-10 {
+    font-size: 10px;
+    line-height: 14px;
+}
+.fw-light {
+    font-weight: 300 !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.topcardhead {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    width: 280px;
+    border: 1px solid #212529;
+    padding: 1px 5px;
+}
+
+.percent {
+    background-color: #fd7e14;
+    width: 66px;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+.heartDiv {
+    background-color: #f03D4f;
+    color: #fff;
+    border-radius: 28px;
+}
+
+.heartDiv svg.svg-inline--fa.fa-heart {
+    color: #fff;
+    width: 27px;
+    margin-top: 6px;
+    border-radius: 30% !important;
+}
+button.addtocart.btn.btn-outline-primary {
+    border-radius: 50px;
+}
